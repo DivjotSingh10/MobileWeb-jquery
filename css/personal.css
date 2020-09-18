@@ -1,0 +1,58 @@
+/* This is Assignement 1
+Name: Divjot Singh Chawla
+Student Number: 991505770 
+Submitted to: Ann Cadger */
+
+body{
+  background-color:#FAD0C9FF;
+  margin: 0px;
+}
+.gridArea {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-areas:
+  "goback"
+  "sections"
+  "image"
+    ;
+  place-items: center;
+}
+#goback{
+  grid-area: goback;
+}
+#sections{
+  grid-area: sections;
+  border: 3px; 
+  border-style: ridge;
+  font-size: 0.5em;
+  font-weight: normal;
+  background-color:#6E6E6DFF;
+  color: white;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#image{
+  grid-area: image;
+  border: 3px;
+  border-style: ridge;
+  text-align: center;
+  margin:0px;
+}
+#myName, #myStudentNumber, #myLogin{
+  text-align: center;
+  align-items: center;
+}
+
+#backbutton{
+  align-self: center;
+}
+.anchorCSS { 
+  background-color:#6E6E6DFF;
+  color: white;
+  text-align: center;
+  border: black 1px solid;
+ font-size: 1em; 
+ text-decoration: none; 
+ padding: 2px;
+ margin-left: 5px;
+}

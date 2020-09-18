@@ -1,0 +1,131 @@
+/*This is Assignement 1
+Name: Divjot Singh Chawla
+Student Number: 991505770 
+Submitted to: Ann Cadger */
+
+body{
+  background-color:#FAD0C9FF ;
+  margin:0px;
+}
+
+.wholeGrid{
+  display:grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  grid-template-areas: 
+            "head head"
+            "listArea buttonArea"
+            "foot foot";
+  place-items: center;          
+}
+
+.head{
+  border: black 1px solid; 
+  font-size: 0.7em;
+  background-color:#6E6E6DFF;
+  color: white;
+  text-align: center;
+  font-size: x-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  grid-area: head;
+  width: 95%;
+  height: 25px;
+  margin:2px;
+  padding:2px;
+}
+#header{
+   overflow: hidden;
+}
+
+.wholeGrid{
+  display:grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  grid-template-areas: 
+            "head head"
+            "listArea buttonArea"
+            "foot foot";
+  place-items: center;          
+}
+
+.listArea{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  grid-area: listArea;
+  background-color:#FCF951FF;
+  border: black 1px solid; 
+   height: 290px;
+  width: 250px;  
+}
+.listAreaHead {
+  background-color:#9ED987FF;
+   color: white; 
+   height: 15px;  
+   text-align: center; 
+  padding: 10px 5px 10px 5px; 
+  font-size: 15px;
+}
+
+.listAreaBody {
+  font-family: "Courier New", Courier, monospace;
+  grid-area: list;
+  font-size: 10px;
+}
+
+.buttonArea{
+  grid-area: buttonArea;
+ 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color:#00B1D2FF;
+  border: black 1px solid; 
+  height: 290px;
+  width: 250px;
+}
+
+.foot{
+  border: black 1px solid; 
+  font-size: 15px;
+  background-color:#6E6E6DFF;
+  color: white;
+  text-align: center;
+  font-size: x-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  grid-area: foot;
+  width: 95%;
+  height: 25px;
+  margin:2px;
+  padding: 2px;
+}
+#footer{
+  overflow: hidden;
+}
+img:hover { 
+  transform: scale(1.5);
+ }
+ .anchorCSS {  
+   background-color:  silver;  
+  font-size: 1em; 
+  text-decoration: none; 
+  color: black;
+  padding: 2px;
+  border: black 1px solid;
+  text-align: center; 
+  margin-bottom: 2px;
+}
+#toggle, #format{
+  background-color:  silver;  
+  font-size: 1em; 
+  text-decoration: none; 
+  color: black;
+  padding: 2px;
+  border: black 1px solid;
+  text-align: center; 
+  margin-bottom: 5px;
+}
+.mystyle {
+  text-decoration: underline;
+  background-color: #ABD1C9FF;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  font-weight: bold;
+}
